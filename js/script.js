@@ -1,6 +1,15 @@
+//challenge 0: Hello World 
 function processData(inputString) {
     // This line of code prints the first line of output
     console.log("Hello, World.");
     // Write the second line of output that prints the contents of 'inputString' here.
     console.log("Welcome to 30 Days of Code!");
 }
+//challenge 1: Greet Amy 
+function greet (person) {
+	if (person.name === 'amy') {
+		return 'hey amy'
+	}
+	return 'hey arnold'
+}
+greet ({ name: 'amy'})
